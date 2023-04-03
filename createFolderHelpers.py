@@ -29,6 +29,6 @@ data['autoload']['files'] = [
 
 # Salvar as alterações no arquivo composer.json
 with open('composer.json', 'w') as f:
-    json.dump(data, f)
+    json.dump(data, f, indent=4)
 
 print("Done!")
